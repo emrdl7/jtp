@@ -5547,13 +5547,14 @@ body {
 						text-align: center;
 						font-size: 26px;
 						color: #1c7cc2;
-						margin: 30px 0 20px;
+						margin: 83px 0 20px;
 						word-break: keep-all;
 
 						@media (min-width: $screen-size-pc) {
 							text-align: left;
 							font-size: 32px;
 							margin: 10px 0;
+							padding-right:140px;
 						}
 
 						small {
@@ -5571,15 +5572,25 @@ body {
 
 					button.add-mylist {
 						position:absolute;
-						right:0;
-						top:0;
-						width:160px;
-						height:57px;
-						font-size:18px;
+						right:10px;
+						top:16px;
+						width:130px;
+						height:44px;
+						font-size:14px;
 						color:#fff;
 						padding:0 0 0 30px;
 						background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='57' viewBox='0 0 160 57'%3E%3Cg id='사각형_998' data-name='사각형 998' fill='%233e6998' stroke='%23355b83' stroke-width='1'%3E%3Crect width='160' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='159' height='56' fill='none'/%3E%3C/g%3E%3Cg id='bookmark_24dp_5F6368' transform='translate(25.5 14)'%3E%3Cpath id='패스_858' data-name='패스 858' d='M0,0H29.5V29.5H0Z' fill='none'/%3E%3Cpath id='패스_859' data-name='패스 859' d='M19.75,3H7.458A2.455,2.455,0,0,0,5.012,5.458L5,25.125l8.6-3.687,8.6,3.687V5.458A2.466,2.466,0,0,0,19.75,3Z' transform='translate(1.146 0.687)' fill='%23b3daf6'/%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center / 100% auto;
 						border:none;
+
+						@media (min-width: $screen-size-pc) {
+
+							right:0;
+							top:0;
+							width:160px;
+							height:57px;
+							font-size:18px;
+							padding:0 0 0 30px;
+						}
 
 						&.checked {
 							background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='57' viewBox='0 0 160 57'%3E%3Cg id='사각형_1000' data-name='사각형 1000' fill='%231f222d' stroke='%231f222d' stroke-width='1'%3E%3Crect width='160' height='57' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='159' height='56' fill='none'/%3E%3C/g%3E%3Cg id='bookmark_24dp_5F6368' transform='translate(25.5 14)'%3E%3Cpath id='패스_858' data-name='패스 858' d='M0,0H29.5V29.5H0Z' fill='none'/%3E%3Cpath id='패스_859' data-name='패스 859' d='M19.75,3H7.458A2.455,2.455,0,0,0,5.012,5.458L5,25.125l8.6-3.687,8.6,3.687V5.458A2.466,2.466,0,0,0,19.75,3Z' transform='translate(1.146 0.687)' fill='%237eb8e2'/%3E%3C/g%3E%3C/svg%3E%0A");
