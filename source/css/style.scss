@@ -5396,29 +5396,38 @@ body {
 								margin-right: 0;
 							}
 						}
+
+						a {
+							display:block;
+						}
 						
 						&.checked {
 
-							&::before {
-								content:"";
-								display:block;
-								position:absolute;
-								right:0;
-								top:0;
-								width:32px;
-								height:32px;
-								background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='54' height='54' viewBox='0 0 54 54'%3E%3Cg id='그룹_769' data-name='그룹 769' transform='translate(-298 -883)'%3E%3Cg id='사각형_1007' data-name='사각형 1007' transform='translate(298 883)' fill='%231f222d' stroke='%231f222d' stroke-width='1'%3E%3Crect width='54' height='54' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='53' height='53' fill='none'/%3E%3C/g%3E%3Cg id='bookmark_24dp_5F6368' transform='translate(310 895)'%3E%3Cpath id='패스_858' data-name='패스 858' d='M0,0H30V30H0Z' fill='none'/%3E%3Cpath id='패스_859' data-name='패스 859' d='M20,3H7.5A2.5,2.5,0,0,0,5.012,5.5L5,25.5l8.75-3.75L22.5,25.5V5.5A2.507,2.507,0,0,0,20,3Z' transform='translate(1.25 0.75)' fill='%237eb8e2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center / 100% auto;
+							a {
 
-								@include drop-shadow(0, 5px, 6px, 0, 0.16);
-
-
-								@media (min-width: $screen-size-pc) {
-									width:54px;
-									height:54px;
+								&::before {
+									content:"";
+									display:block;
+									position:absolute;
+									right:0;
+									top:0;
+									width:32px;
+									height:32px;
+									background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='54' height='54' viewBox='0 0 54 54'%3E%3Cg id='그룹_769' data-name='그룹 769' transform='translate(-298 -883)'%3E%3Cg id='사각형_1007' data-name='사각형 1007' transform='translate(298 883)' fill='%231f222d' stroke='%231f222d' stroke-width='1'%3E%3Crect width='54' height='54' stroke='none'/%3E%3Crect x='0.5' y='0.5' width='53' height='53' fill='none'/%3E%3C/g%3E%3Cg id='bookmark_24dp_5F6368' transform='translate(310 895)'%3E%3Cpath id='패스_858' data-name='패스 858' d='M0,0H30V30H0Z' fill='none'/%3E%3Cpath id='패스_859' data-name='패스 859' d='M20,3H7.5A2.5,2.5,0,0,0,5.012,5.5L5,25.5l8.75-3.75L22.5,25.5V5.5A2.507,2.507,0,0,0,20,3Z' transform='translate(1.25 0.75)' fill='%237eb8e2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat center / 100% auto;
+	
+									@include drop-shadow(0, 5px, 6px, 0, 0.16);
+	
+	
+									@media (min-width: $screen-size-pc) {
+										width:54px;
+										height:54px;
+									}
+									
 								}
-								
+
 							}
 						}
+						
 
 						p.image {
 							position: absolute;
